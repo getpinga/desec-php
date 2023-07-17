@@ -1,0 +1,15 @@
+{
+    "name": "pinga/desec-php",
+    "description": "A PHP library to interact with the DeSec API",
+    "type": "library",
+    "require": {
+        "php": "^8.2",
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "deSEC\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
